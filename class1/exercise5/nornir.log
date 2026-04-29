@@ -44,3 +44,8 @@ TypeError: string indices must be integers, not 'str'
 2026-04-29 06:36:16,541 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
 2026-04-29 06:36:20,293 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
 2026-04-29 06:36:23,946 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2026-04-29 06:40:38,404 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2026-04-29 06:40:42,654 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2026-04-29 06:40:46,581 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2026-04-29 06:40:51,001 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2026-04-29 06:40:57,868 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
