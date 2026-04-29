@@ -1,0 +1,46 @@
+2026-04-29 06:00:01,696 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2026-04-29 06:16:43,207 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2026-04-29 06:30:54,964 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2026-04-29 06:30:54,967 - nornir.core.task -    ERROR -      start() - Host 'cisco3': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rwu/KirkB_Nornir/class1/exercise5/exercise5.py", line 5, in my_task
+    time.sleep(random())
+    ^^^^
+NameError: name 'time' is not defined
+
+2026-04-29 06:30:54,968 - nornir.core.task -    ERROR -      start() - Host 'cisco4': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rwu/KirkB_Nornir/class1/exercise5/exercise5.py", line 5, in my_task
+    time.sleep(random())
+    ^^^^
+NameError: name 'time' is not defined
+
+2026-04-29 06:32:13,260 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2026-04-29 06:32:13,263 - nornir.core.task -    ERROR -      start() - Host 'cisco3': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rwu/KirkB_Nornir/class1/exercise5/exercise5.py", line 9, in my_task
+    print(f"DNS1: {host['dns1']}")
+                   ~~~~^^^^^^^^
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/inventory.py", line 337, in __getitem__
+    return self.data[item]
+           ~~~~~~~~~^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+2026-04-29 06:33:41,101 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2026-04-29 06:34:10,653 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2026-04-29 06:34:16,637 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2026-04-29 06:34:23,408 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2026-04-29 06:35:35,887 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2026-04-29 06:36:10,730 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2026-04-29 06:36:16,541 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2026-04-29 06:36:20,293 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
+2026-04-29 06:36:23,946 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 2 hosts
