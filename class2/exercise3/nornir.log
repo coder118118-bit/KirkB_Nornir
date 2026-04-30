@@ -1,0 +1,1 @@
+2026-04-30 10:48:48,451 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip arp'} on 6 hosts
