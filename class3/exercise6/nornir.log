@@ -1,0 +1,5 @@
+2026-05-09 15:13:07,829 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config']} on 2 hosts
+2026-05-09 15:17:17,362 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config'], 'getters_options': {'config': {'retrieve': 'running'}}} on 2 hosts
+2026-05-09 15:20:31,650 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config', 'facts'], 'getters_options': {'config': {'retrieve': 'running'}}} on 2 hosts
+2026-05-09 15:33:37,387 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config', 'facts'], 'getters_options': {'config': {'retrieve': 'all'}}} on 2 hosts
+2026-05-09 15:51:12,969 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['config', 'facts'], 'getters_options': {'config': {'retrieve': 'all'}}} on 2 hosts
