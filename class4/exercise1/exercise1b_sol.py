@@ -12,7 +12,7 @@ TEST = True
 
 
 def parse_uptime(uptime_str):
-    """Based on method in the NAPLAM library"""
+    """Based on method in the NAPALM library"""
 
     # import ipdb; ipdb.set_trace()
     if "uptime is" in uptime_str:
@@ -73,7 +73,7 @@ def uptime(task):
 
     uptime_sec = parse_uptime(uptime_output)
     if uptime_sec < DAY_SECONDS:
-        #Make it look nicer--yes, we are geeks
+        # Make it look nicer--yes, we are geeks
         colorama.init()
         print()
         print(colorama.Fore.RED + colorama.Back.WHITE)
@@ -85,7 +85,7 @@ def uptime(task):
     elif TEST is True:
         print()
         print("-" * 40)
-        print(f"{host.name}: device uptime: is:")
+        print(f"{host.name}: device uptime is:")
         print(uptime_sec)
         print("-" * 40)
         print()
