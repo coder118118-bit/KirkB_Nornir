@@ -1,0 +1,163 @@
+2026-05-14 14:42:21,914 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2026-05-14 14:42:21,916 - nornir.core.task -    ERROR -      start() - Host 'arista1': task 'netmiko_file_transfer' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: netmiko_file_transfer() missing 1 required positional argument: 'dest_file'
+
+2026-05-14 14:42:21,917 - nornir.core.task -    ERROR -      start() - Host 'arista3': task 'netmiko_file_transfer' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: netmiko_file_transfer() missing 1 required positional argument: 'dest_file'
+
+2026-05-14 14:42:21,918 - nornir.core.task -    ERROR -      start() - Host 'arista2': task 'netmiko_file_transfer' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: netmiko_file_transfer() missing 1 required positional argument: 'dest_file'
+
+2026-05-14 14:42:21,918 - nornir.core.task -    ERROR -      start() - Host 'arista4': task 'netmiko_file_transfer' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: netmiko_file_transfer() missing 1 required positional argument: 'dest_file'
+
+2026-05-14 14:42:21,919 - nornir.core.task -    ERROR -      start() - Host 'arista1': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rwu/KirkB_Nornir/class4/exercise2/exercise2a.py", line 12, in file_copy
+    task.run(
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_file_transfer (failed)
+
+
+2026-05-14 14:42:21,920 - nornir.core.task -    ERROR -      start() - Host 'arista2': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rwu/KirkB_Nornir/class4/exercise2/exercise2a.py", line 12, in file_copy
+    task.run(
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_file_transfer (failed)
+
+
+2026-05-14 14:42:21,920 - nornir.core.task -    ERROR -      start() - Host 'arista3': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rwu/KirkB_Nornir/class4/exercise2/exercise2a.py", line 12, in file_copy
+    task.run(
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_file_transfer (failed)
+
+
+2026-05-14 14:42:21,921 - nornir.core.task -    ERROR -      start() - Host 'arista4': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rwu/KirkB_Nornir/class4/exercise2/exercise2a.py", line 12, in file_copy
+    task.run(
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_file_transfer (failed)
+
+
+2026-05-14 14:44:17,478 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2026-05-14 14:46:51,696 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2026-05-14 14:59:59,643 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2026-05-14 15:00:04,697 - nornir.core.task -    ERROR -      start() - Host 'arista3': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rwu/KirkB_Nornir/class4/exercise2/exercise2b.py", line 25, in file_copy
+    multi_result = task.run(task=netmiko_send_command, command_string=cmd)
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'netmiko_send_command' is not defined
+
+2026-05-14 15:00:04,819 - nornir.core.task -    ERROR -      start() - Host 'arista1': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rwu/KirkB_Nornir/class4/exercise2/exercise2b.py", line 25, in file_copy
+    multi_result = task.run(task=netmiko_send_command, command_string=cmd)
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'netmiko_send_command' is not defined
+
+2026-05-14 15:00:05,034 - nornir.core.task -    ERROR -      start() - Host 'arista2': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rwu/KirkB_Nornir/class4/exercise2/exercise2b.py", line 25, in file_copy
+    multi_result = task.run(task=netmiko_send_command, command_string=cmd)
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'netmiko_send_command' is not defined
+
+2026-05-14 15:00:05,062 - nornir.core.task -    ERROR -      start() - Host 'arista4': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rwu/KirkB_Nornir/class4/exercise2/exercise2b.py", line 25, in file_copy
+    multi_result = task.run(task=netmiko_send_command, command_string=cmd)
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'netmiko_send_command' is not defined
+
+2026-05-14 15:03:05,056 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2026-05-14 15:03:10,188 - nornir.core.task -    ERROR -      start() - Host 'arista1': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rwu/KirkB_Nornir/class4/exercise2/exercise2b.py", line 25, in file_copy
+    multi_result = task.run(task=netmiko_send_command, command_string=cmd)
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'netmiko_send_command' is not defined
+
+2026-05-14 15:03:10,190 - nornir.core.task -    ERROR -      start() - Host 'arista3': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rwu/KirkB_Nornir/class4/exercise2/exercise2b.py", line 25, in file_copy
+    multi_result = task.run(task=netmiko_send_command, command_string=cmd)
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'netmiko_send_command' is not defined
+
+2026-05-14 15:03:10,337 - nornir.core.task -    ERROR -      start() - Host 'arista4': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rwu/KirkB_Nornir/class4/exercise2/exercise2b.py", line 25, in file_copy
+    multi_result = task.run(task=netmiko_send_command, command_string=cmd)
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'netmiko_send_command' is not defined
+
+2026-05-14 15:03:10,337 - nornir.core.task -    ERROR -      start() - Host 'arista2': task 'file_copy' failed with traceback:
+Traceback (most recent call last):
+  File "/home/rwu/VENV/py3_venv/lib/python3.11/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rwu/KirkB_Nornir/class4/exercise2/exercise2b.py", line 25, in file_copy
+    multi_result = task.run(task=netmiko_send_command, command_string=cmd)
+                                 ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'netmiko_send_command' is not defined
+
+2026-05-14 15:06:21,151 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
+2026-05-14 15:14:03,679 -  nornir.core -     INFO -        run() - Running task 'file_copy' with args {} on 4 hosts
