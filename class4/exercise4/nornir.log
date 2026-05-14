@@ -1,0 +1,6 @@
+2026-05-14 16:13:58,858 -  nornir.core -     INFO -        run() - Running task 'configure_vlan' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan'} on 6 hosts
+2026-05-14 16:14:49,021 -  nornir.core -     INFO -        run() - Running task 'configure_vlan' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan'} on 6 hosts
+2026-05-14 16:18:47,817 -  nornir.core -     INFO -        run() - Running task 'configure_vlan' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan', 'dry_run': False} on 6 hosts
+2026-05-14 16:21:37,525 -  nornir.core -     INFO -        run() - Running task 'configure_vlan' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan', 'dry_run': False} on 6 hosts
+2026-05-14 16:23:01,250 -  nornir.core -     INFO -        run() - Running task 'configure_vlan' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan', 'dry_run': True} on 6 hosts
+2026-05-14 16:24:08,172 -  nornir.core -     INFO -        run() - Running task 'configure_vlan' with args {'vlan_id': '123', 'vlan_name': 'ntp_vlan', 'dry_run': True} on 6 hosts
